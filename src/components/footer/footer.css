@@ -1,0 +1,121 @@
+.footer{
+    background: #070A11;
+    padding: 0 20px;
+}
+
+.line-footer{
+    justify-content: center;
+    width: 90%;
+    height: 1px;
+    background: #1E293B;
+    margin: 30px 80px 20px 80px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    color: #8F9DB2;
+    display: flex;
+    align-items: center;
+    padding: 0px 120px 30px 120px;
+    font-size: 10pt;
+}
+.footer-container ul{
+    display: flex;
+    gap: 30px;
+}
+
+.footer-link{
+    justify-content: center;
+    align-items: center;    
+    text-align: center;
+    font-weight: 300;
+    cursor: pointer;
+    color: #8F9DB2;
+    font-size: 10pt;
+    list-style-type: none;
+    padding: 0 2px;
+}
+
+#inicioLink{
+    width: 30px;
+}
+
+#nosotrosLink{
+    width: 50px;
+
+}
+
+#servicioLink{
+    width: 45px;
+}
+
+#contactoLink{
+    width: 50px;
+}
+
+.footer-link:hover{
+    font-weight: 600;
+    color: #fff;
+}
+
+.light .footer{
+    background: none;
+}
+
+.light .line-footer{
+    background: #fff;
+
+}
+
+.light .footer-link{
+    color: #092F4D;
+    font-weight: 400;
+}
+
+.light .footer-link:hover{
+    color: #092F4D;
+    font-weight: 700;
+}
+
+/* RESPONSIVE */
+
+@media screen and (max-width:  928px) {
+
+    .footer-container p{
+        font-size: 8pt;
+    }
+
+    .footer-container{
+        padding: 20px 0;
+    }
+
+    
+    .line-footer{
+        justify-content: center;
+        width: 90%;
+        height: 1px;
+        background: #1E293B;
+        margin: 30px 10px 10px 5px;
+    }
+
+    .footer-container{
+        color: #8F9DB2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        font-size: 10pt;
+    }
+    ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-link{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}

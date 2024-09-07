@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Raleway", sans-serif;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #070A11;
+    font-family: "Raleway", sans-serif;
+    padding: 50px 180px 50px 180px;
+    transition: 0.5s;
+}
+
+.logo-icon{
+    width: 50px;
+}
+.navContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+#menuLinks{
+    gap: 30px;
+}
+
+.navLink{
+    margin: 10px 20px;
+    font-size: 17px;
+    cursor: pointer;
+    color: #bfc9d3;
+    font-weight: 300;
+}
+
+.navLink:hover{
+    font-weight: 700;
+    color: #fff;
+}
+
+#homeLink{
+    width: 25px;
+}
+#nosotrosLink{
+    width: 50px;
+}
+#servicioLink{
+    width: 50px;
+}
+#contactoLink{
+    width: 50px;
+}
+
+.menu-icon{
+    width: 25px;
+    display: none;
+}
+.iconMenu{
+    display: none;
+}
+
+.toggle-nav{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: 300;
+    gap: 12px;
+    transition: 0.5s;
+}
+
+.toggle-nav p{
+    font-size: 10pt;
+    font-weight: 600;
+}
+
+.toggle-icon{
+    width: 30px;
+    cursor: pointer;
+
+}
+
+.light .navbar{
+    background: #E7F0F7;
+}
+
+.light .navLink{
+    font-weight: 600;
+    color: #2c6c9e;
+}
+
+.light .navLink:hover{
+    font-weight: 800;
+    color: #092F4D;
+}
+
+.light .toggle-nav{
+    color: #092F4D;
+}
+
+
+
+
+@media screen and (max-width:  928px){
+    .iconMenu{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        transition: 1s;
+    }
+
+
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 50px 20px 50px 0px;
+    }
+    .logo-icon{
+        margin: 0 0px 0 20px;
+    }
+    .logo-icon{
+        gap: 0;
+        padding: 0 0 ;
+    }
+    .menu-icon{
+        width: 35px;
+        display: flex;
+        transition: 1s;
+    }
+
+
+
+
+    .navContainer{
+        display: none;
+        color: #fff;
+
+        background: #2c6c9e;
+    }
+    .navContainer_Open{
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0;
+        justify-content: center;
+        text-align: center;
+        align-content: center;
+        background: #070A11;
+        position: absolute;
+        top: 11%;
+        width: 100%;
+        height: 70%;
+        transition: 0.5s;
+    }
+    .navContainer_Open .navLink{
+        align-items: center;
+        top: 20px;
+        color: #fff;
+        font-size: 18pt;
+        margin: 30px;
+        cursor: pointer;
+        font-weight: 400;
+        transition: 0.5s;
+    }
+
+    .navContainer_Open .navLink:hover{
+        font-weight: 800;
+    }
+
+    .iconMenu{
+
+        width: 30px;
+        height: 30px;
+        border-radius: 5px;
+
+
+    }
+
+    .faTimes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        color: #fff;
+        transition: 2s;
+    }
+
+    .faBars{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: 8px;
+        color: #fff;
+        transition: 2s;
+    }
+
+    .toggle-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #092F4D;
+        gap: 0;
+        margin: 5px;
+        padding: 0 0px 0 5px;
+        border-radius: 10px;
+    }
+
+    .toggle-icon{
+        margin: 5px;
+    }
+
+    .light .navContainer_Open{
+        background: #E7F0F7;
+    }
+
+    .light .navContainer_Open a{
+        color: #092F4D;
+        font-weight: 600;
+    }
+
+    .light .navContainer_Open a:hover{
+        font-weight: 800;    
+        color: #070A11;    
+    }
+
+
+
+    .light .faTimes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        color: #070A11;
+    }
+
+    .light .faBars{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        margin: 8px;
+        color: #070A11;
+    }
+
+    .light .toggle-nav{
+        background: #fff;
+    }
+
+
+
+
+
+
+
+
+}

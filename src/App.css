@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+ul {
+
+  list-style-type: none;
+}
+
+.container{
+  background: #070A11;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 1828px){
+  .container{
+    overflow-x: hidden;
+  }
+}

@@ -1,0 +1,276 @@
+
+.contact{
+    background: #09132B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangle-contact{
+    width: 1500px;
+    height: 120px;
+    background: #fff;
+    background: linear-gradient(180deg, rgba(255,255,255,0.05) 0%, rgba(255, 255, 255, 0.0) 47%);
+    border-top-left-radius: 280px 200px;
+    border-top-right-radius: 280px 200px;   
+    padding: 80px 0 0 0;
+}
+
+.contact-text h2, h1{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+form{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.contact-container{
+    padding: 10px 0;
+    gap: 20px;
+}
+
+.contact-cxd, .contact-container-l{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 7pt;
+}
+
+.placeHolder{
+    color: #8F9DB2;
+    font-size: 10pt;
+    padding: 0 5px;
+}
+
+.contact-cxd input{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 400px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    padding: 0 15px;
+
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 0 50px 0;
+}
+
+.contact-container-l{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+
+
+.contact-container-l input{
+    width: 820px;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    padding: 0 15px;
+}
+
+.message{
+    width: 820px;
+    height: 200px;
+    resize:none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 11pt;
+    color: #96a0bd;
+}
+
+.message::placeholder, .text::placeholder{
+    color: #909cbd;
+    font-weight: 500;    
+}
+
+.button-form{
+    width: 226px;
+    height: 60px;
+    background: #D2E9FA;
+    color: #09132B;
+    font-family: "Raleway", sans-serif;
+    font-size: 12pt;
+    font-weight: 700;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-form:hover{
+    background: #fff;
+}
+
+.contact{
+    gap: 100px 0;
+
+}
+
+.contact-text h2{
+    font-size: 18pt;
+    font-weight: 600;
+}
+
+.contact-text h1{
+    font-weight: 800;
+    font-size: 50pt;
+}
+
+
+.light .title{
+    color: #092F4D;
+}
+
+.light .contact{
+    background: #fff;
+}
+
+.light h2{
+    color: #092F4D;
+}
+
+.light .text{
+    border: #D8DEEE solid 2px;
+}
+
+.light .placeHolder{
+    color: #092F4D;
+    font-weight: 600;
+}
+
+.light .message{
+    border: #D8DEEE solid 2px;
+}
+
+.light .button-form{
+    background: #12456d;
+    color: #fff;
+}
+
+.light .button-form:hover{
+    background: #092F4D;
+    color: #fff;
+}
+
+
+.light .rectangle-contact{
+    background: #092F4D;
+    background: linear-gradient(180deg, rgba(6, 24, 67, 0.05) 0%, rgba(6, 24, 67, 0.0) 47%);
+}
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 1828px){
+    .rectangle-contact{
+        flex-wrap: wrap;
+        width: 100%;
+        height: 45px;
+
+    }
+
+    .contact{
+        gap: 30px 0;
+    
+    }
+    .form-container{
+        flex-wrap: wrap;
+
+    }
+
+    .contact-cxd input, .contact-container-l input, .contact-container-l textarea{
+        border: #D8DEEE solid 1px;
+        background: #09132B;
+        color: #fff;
+        font-weight: 600;
+    }
+
+
+
+
+
+    .light .text, .light .contact-container-l textarea{
+        background: #fff;
+        color: #909cbd;
+        font-weight: 100;
+    }
+
+    .contact-text h1{
+        font-size: 30pt;
+    }
+    .contact-text h2{
+        font-size: 12pt;
+    }
+
+    .form-description{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+    .contact-cxd input{
+        width: 350px; 
+        padding: 0 20px;
+        width: 350px;
+    }
+
+    .contact-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contact-container-l input{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 350px; 
+
+    }
+
+    .message{
+        width: 350px; 
+    }
+
+    .button-form{
+        width: 150px;
+        height: 50px;
+        font-size: 11pt;
+    }
+
+
+
+
+}

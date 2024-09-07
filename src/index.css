@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+.container{
+  background: #070A11;
+  min-height: 100vh;
+  transition: 0.5s;
+}
+.container.light{
+  background: #E7F0F7;
+}
